@@ -1,0 +1,194 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: #eef8e5;
+}
+
+h1,h2,h3,p,a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+p,a{
+    font-size: medium;
+}
+
+/** styling the navigation **/
+
+header{
+    padding-top:0px;
+    padding-bottom: 0px;
+    background-color: #FAF9F6;
+    display: flex;
+    justify-content: space-between;
+}
+
+header #group_1 #logo-link{
+    height: 58px;
+    width: 58px;
+    border-radius: 5px;
+}
+
+header div{
+    display: flex;
+}
+
+header nav {
+    display: inline-block;
+}
+
+img{
+    height: 58px;
+    width: 58px;
+    border-radius: 5px;
+}
+
+header button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    margin-top: 10px;
+    background-color: #f0fcfc;
+    border-radius: 10px;
+    border-style: none;
+    width: 60px;
+    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+header button:hover{
+    cursor: pointer;
+    background-color: #dff7f7;
+}
+
+nav ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+    margin-right: 10px;
+}
+
+nav ul li a{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #f0fcfc;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    cursor: pointer;
+    background-color: #dff7f7;
+}
+
+nav ul li a:visited{
+    color: black;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+#appointment-form{
+    display: block;
+    justify-content: center;  
+}
+#appointment-form img{
+    padding-left: 50%;
+    padding-right: 50%;
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#appointment-form h2,p{
+    text-align: center;
+}
+
+#appointment-form form{
+    padding-left: 35%;
+    padding-right: 35%;
+}
+
+#appointment-form form label{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+}
+
+#appointment-form form label span{
+    padding-right: 10px;
+}
+
+#appointment-form form label input{
+    margin-right: 0px;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#appointment-form form label #name{
+    margin-right: 2px;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#appointment-form form #addresses{
+    display: flex;
+}
+#appointment-form form #addresses #address-details{
+    display: block;
+}
+
+#appointment-form form button{
+    border-radius: 5px;
+    border-style: none;
+    background-color: #dff7f7;
+}
+
+footer{
+    height: auto;
+    text-align: center;
+}
+
+footer #footer-navigation{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer form input,button{
+    display: block;
+}
+
+footer form input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+footer #quick-links a,#terms-privacy a{
+    display: block;
+    text-decoration: none;
+}
+
+footer img{
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+}
+
+footer button{
+    border-radius: 5px;
+    border-style: none;
+    background-color: #dff7f7;
+}
